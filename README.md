@@ -1,2 +1,2 @@
 # CEW-
-Lab work of computer engineering workshop
+Solutions of lab workbook of computer engineering workshop
