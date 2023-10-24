@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int id;
+    int hrs;
+    float amount;
+    printf("Enter employee ID: ");
+    scanf("%d", &id );
+    printf("\nEnter total no of hours worked this month: ");
+    scanf("%d", &hrs );
+    printf("\nEnter amount received per hour in dollars: ");
+    scanf("%f", &amount );
+    printf("****************************************");
+    printf("\nID of employee: CS-%d", id);
+    printf("\nSalary of employee in dollars: $%.2f", hrs*amount);
+}
